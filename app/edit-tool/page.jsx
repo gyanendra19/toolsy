@@ -10,7 +10,6 @@ const page = () => {
   const router = useRouter()
   const searchParams = useSearchParams()
   const toolId = searchParams.get('id')
-  console.log(toolId);
 
 
   useEffect(() => {
